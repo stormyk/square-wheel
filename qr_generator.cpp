@@ -5,7 +5,7 @@
 using namespace std;
 
 
-vector <size_t> primes(size_t max){
+vector <size_t> primes(size_t max){//generates sparse vector of prime numbers
 	vector <size_t> result;
 	result.resize(max+1);
 	for(size_t i=0;i<max;i++){
